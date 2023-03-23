@@ -1,11 +1,6 @@
-use yew::prelude::*;
+use crate::app::App;
 
-#[function_component(App)]
-fn app() -> Html {
-    html! {
-        <p>{ "Hello World!" }</p>
-    }
-}
+pub mod app;
 
 fn main() {
     yew::Renderer::<App>::new().render();
