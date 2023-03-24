@@ -46,6 +46,5 @@ pub fn app() -> Html {
                 <button class={classes!("reset")} onclick={reset}>{ "Reset" }</button>
             </div>
         </div>
-
     }
 }
